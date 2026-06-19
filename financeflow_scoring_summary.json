@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "status": "READY",
   "input_row_count": 330,
@@ -16,3 +17,23 @@
     "unknown_category_values": 0
   }
 }
+=======
+{
+  "status": "READY",
+  "input_row_count": 330,
+  "scored_row_count": 330,
+  "flagged_row_count": 179,
+  "approve_count": 151,
+  "review_count": 94,
+  "decline_count": 85,
+  "total_at_risk_usd": 49533069.04,
+  "audit_issues": {
+    "missing_credit_score": 0,
+    "negative_annual_revenue_usd": 0,
+    "credit_score_out_of_range": 0,
+    "debt_to_income_ratio_out_of_range": 0,
+    "missing_required_fields": 0,
+    "unknown_category_values": 0
+  }
+}
+>>>>>>> 19570d47a06ed7fe28302cd339bf5c516fb5298c

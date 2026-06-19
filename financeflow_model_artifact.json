@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "model_type": "logistic_regression",
   "version": "1.0",
@@ -228,3 +229,235 @@
     }
   ]
 }
+=======
+{
+  "model_type": "logistic_regression",
+  "version": "1.0",
+  "stats": {
+    "business_age_years": {
+      "mean": 12.68939393939394,
+      "std": 7.474839185214071
+    },
+    "num_employees": {
+      "mean": 247.4659090909091,
+      "std": 140.0684585487902
+    },
+    "annual_revenue_usd": {
+      "mean": 2501276.366287879,
+      "std": 1392044.9076771308
+    },
+    "loan_amount_usd": {
+      "mean": 261740.8724242424,
+      "std": 144172.55263389667
+    },
+    "loan_term_months": {
+      "mean": 35.5,
+      "std": 16.55637751332206
+    },
+    "interest_rate_pct": {
+      "mean": 11.364469696969696,
+      "std": 3.815249567752186
+    },
+    "credit_score": {
+      "mean": 665.4659090909091,
+      "std": 79.5670979754456
+    },
+    "debt_to_income_ratio": {
+      "mean": 0.37102651515151513,
+      "std": 0.15475531535388395
+    }
+  },
+  "categories": {
+    "sector": [
+      "Agriculture",
+      "Construction",
+      "Healthcare",
+      "Hospitality",
+      "Manufacturing",
+      "Retail",
+      "Technology"
+    ],
+    "loan_purpose": [
+      "Equipment",
+      "Expansion",
+      "Real Estate",
+      "Refinancing",
+      "Working Capital"
+    ],
+    "state": [
+      "CA",
+      "FL",
+      "GA",
+      "IL",
+      "NC",
+      "NY",
+      "OH",
+      "PA",
+      "TX",
+      "WA"
+    ]
+  },
+  "weights": [
+    -0.23432266741872232,
+    -0.6718019387596006,
+    0.17968832234243864,
+    -0.09714509658736854,
+    0.29554979964664746,
+    -0.2797826696502283,
+    -0.20764564722016304,
+    -0.6138036846320026,
+    0.3919204171854477,
+    -0.06216825295649628,
+    -0.3809060899330043,
+    -0.09118827166668304,
+    0.3105262520071236,
+    -0.5152966367755929,
+    0.4012393878181248,
+    0.12659615298810972,
+    -0.05105615749703711,
+    0.242821566783687,
+    0.39086606769899934,
+    0.016377700919878203,
+    -0.8102066364239439,
+    -0.09972167252444301,
+    -0.2826993078051165,
+    0.052175606790036855,
+    -0.07054135356797006,
+    -1.3356780071876766,
+    0.5060361602709562,
+    0.29419552897453627,
+    0.27386734834641013,
+    0.37068670486132926,
+    0.08048153332352039
+  ],
+  "feature_names": [
+    "bias",
+    "num::business_age_years",
+    "num::num_employees",
+    "num::annual_revenue_usd",
+    "num::loan_amount_usd",
+    "num::loan_term_months",
+    "num::interest_rate_pct",
+    "num::credit_score",
+    "num::debt_to_income_ratio",
+    "cat::sector::Agriculture",
+    "cat::sector::Construction",
+    "cat::sector::Healthcare",
+    "cat::sector::Hospitality",
+    "cat::sector::Manufacturing",
+    "cat::sector::Retail",
+    "cat::sector::Technology",
+    "cat::loan_purpose::Equipment",
+    "cat::loan_purpose::Expansion",
+    "cat::loan_purpose::Real Estate",
+    "cat::loan_purpose::Refinancing",
+    "cat::loan_purpose::Working Capital",
+    "cat::state::CA",
+    "cat::state::FL",
+    "cat::state::GA",
+    "cat::state::IL",
+    "cat::state::NC",
+    "cat::state::NY",
+    "cat::state::OH",
+    "cat::state::PA",
+    "cat::state::TX",
+    "cat::state::WA"
+  ],
+  "thresholds": {
+    "review": 0.4,
+    "decline": 0.65
+  },
+  "training_row_count": 330,
+  "default_rate": 0.2788,
+  "metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.6212,
+    "precision": 0.3793,
+    "recall": 0.6111,
+    "f1": 0.4681,
+    "confusion_matrix": {
+      "tp": 11,
+      "tn": 30,
+      "fp": 18,
+      "fn": 7
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "cat::state::NC",
+      "weight": -1.335678,
+      "absolute_weight": 1.3356780071876766
+    },
+    {
+      "feature": "cat::loan_purpose::Working Capital",
+      "weight": -0.810207,
+      "absolute_weight": 0.8102066364239439
+    },
+    {
+      "feature": "num::business_age_years",
+      "weight": -0.671802,
+      "absolute_weight": 0.6718019387596006
+    },
+    {
+      "feature": "num::credit_score",
+      "weight": -0.613804,
+      "absolute_weight": 0.6138036846320026
+    },
+    {
+      "feature": "cat::sector::Manufacturing",
+      "weight": -0.515297,
+      "absolute_weight": 0.5152966367755929
+    },
+    {
+      "feature": "cat::state::NY",
+      "weight": 0.506036,
+      "absolute_weight": 0.5060361602709562
+    },
+    {
+      "feature": "cat::sector::Retail",
+      "weight": 0.401239,
+      "absolute_weight": 0.4012393878181248
+    },
+    {
+      "feature": "num::debt_to_income_ratio",
+      "weight": 0.39192,
+      "absolute_weight": 0.3919204171854477
+    },
+    {
+      "feature": "cat::loan_purpose::Real Estate",
+      "weight": 0.390866,
+      "absolute_weight": 0.39086606769899934
+    },
+    {
+      "feature": "cat::sector::Construction",
+      "weight": -0.380906,
+      "absolute_weight": 0.3809060899330043
+    },
+    {
+      "feature": "cat::state::TX",
+      "weight": 0.370687,
+      "absolute_weight": 0.37068670486132926
+    },
+    {
+      "feature": "cat::sector::Hospitality",
+      "weight": 0.310526,
+      "absolute_weight": 0.3105262520071236
+    },
+    {
+      "feature": "num::loan_amount_usd",
+      "weight": 0.29555,
+      "absolute_weight": 0.29554979964664746
+    },
+    {
+      "feature": "cat::state::OH",
+      "weight": 0.294196,
+      "absolute_weight": 0.29419552897453627
+    },
+    {
+      "feature": "cat::state::FL",
+      "weight": -0.282699,
+      "absolute_weight": 0.2826993078051165
+    }
+  ]
+}
+>>>>>>> 19570d47a06ed7fe28302cd339bf5c516fb5298c
