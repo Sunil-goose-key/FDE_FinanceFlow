@@ -144,13 +144,12 @@
     {
       "id": "5c",
       "name": "Claude - Data Ops Alert",
-      "type": "n8n-nodes-base.langchain",
-      "typeVersion": 1,
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
       "position": [1160, 620],
       "parameters": {
-        "prompt": "={{ $json.alert_prompt }}",
-        "options": {},
-        "model": "claude-sonnet-4-20250514"
+        "language": "javascript",
+        "code": "const missingCredit = $json.null_credit_score_count ?? 0;\nconst missingDefault = $json.null_default_flag_count ?? 0;\nconst negativeRevenue = $json.negative_revenue_count ?? 0;\n\nconst text = `FinanceFlow blocked today's underwriting run because ${missingCredit} applications are missing credit scores, ${missingDefault} rows are missing default flags, and ${negativeRevenue} rows show negative annual revenue. Please correct the overnight export in the source systems and rerun the workflow after the data team confirms the file is clean.`;\n\nreturn [{\n  json: {\n    ...$json,\n    text\n  }\n}];"
       }
     },
     {
