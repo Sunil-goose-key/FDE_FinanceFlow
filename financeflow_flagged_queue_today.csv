@@ -1,0 +1,1254 @@
+loan_id,sector,state,loan_amount_usd,credit_score,debt_to_income_ratio,default_probability,decision,underwriter_brief
+L00002,Retail,OH,14695.89,716,0.63,0.5757,Review,"RISK SUMMARY: Review at 57.6% default probability. Debt-to-income ratio (0.63) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.63) is high relative to the training portfolio.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00003,Hospitality,FL,249462.76,632,0.261,0.5568,Review,"RISK SUMMARY: Review at 55.7% default probability. Loan term (12 months) is longer than the lower-risk cohort.
+
+KEY SIGNALS:
+- Loan term (12 months) is longer than the lower-risk cohort.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00004,Agriculture,NC,388548.34,577,0.415,0.5332,Review,"RISK SUMMARY: Review at 53.3% default probability. Low credit score (577) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (577) materially increases default risk.
+- Business operating history (6 years) is limited.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00006,Hospitality,FL,410197.01,580,0.527,0.817,Decline,"RISK SUMMARY: Decline at 81.7% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Low credit score (580) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00007,Healthcare,CA,358269.44,591,0.532,0.4786,Review,"RISK SUMMARY: Review at 47.9% default probability. Low credit score (591) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (591) materially increases default risk.
+- Debt-to-income ratio (0.53) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00040,Technology,PA,231439.37,581,0.15,0.5743,Review,"RISK SUMMARY: Review at 57.4% default probability. Low credit score (581) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (581) materially increases default risk.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00045,Hospitality,NY,219065.37,615,0.251,0.6782,Decline,"RISK SUMMARY: Decline at 67.8% default probability. State cohort (NY) has a weaker repayment pattern in the training data.
+
+KEY SIGNALS:
+- State cohort (NY) has a weaker repayment pattern in the training data.
+- Credit score (615) is below the stronger-performing borrower range.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00049,Manufacturing,PA,131449.96,548,0.52,0.6757,Decline,"RISK SUMMARY: Decline at 67.6% default probability. Low credit score (548) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (548) materially increases default risk.
+- Debt-to-income ratio (0.52) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00050,Technology,PA,424158.24,682,0.543,0.8512,Decline,"RISK SUMMARY: Decline at 85.1% default probability. Debt-to-income ratio (0.54) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.54) is high relative to the training portfolio.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00052,Manufacturing,NY,267959.77,623,0.544,0.9301,Decline,"RISK SUMMARY: Decline at 93.0% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- State cohort (NY) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00080,Manufacturing,IL,472072.43,712,0.568,0.7129,Decline,"RISK SUMMARY: Decline at 71.3% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Debt-to-income ratio (0.57) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00081,Hospitality,NC,413912.3,523,0.381,0.6529,Decline,"RISK SUMMARY: Decline at 65.3% default probability. Low credit score (523) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (523) materially increases default risk.
+- Business operating history (7 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00086,Construction,WA,53756.91,677,0.331,0.592,Review,"RISK SUMMARY: Review at 59.2% default probability. Business operating history (6 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (6 years) is limited.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00088,Hospitality,OH,36490.37,622,0.288,0.4455,Review,"RISK SUMMARY: Review at 44.6% default probability. Credit score (622) is below the stronger-performing borrower range.
+
+KEY SIGNALS:
+- Credit score (622) is below the stronger-performing borrower range.
+- Sector exposure (Hospitality) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00105,Retail,NC,16056.5,634,0.638,0.4488,Review,"RISK SUMMARY: Review at 44.9% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Debt-to-income ratio (0.64) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00108,Healthcare,OH,410380.62,749,0.148,0.5767,Review,"RISK SUMMARY: Review at 57.7% default probability. Business operating history (8 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (8 years) is limited.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00109,Construction,PA,207685.43,520,0.554,0.8164,Decline,"RISK SUMMARY: Decline at 81.6% default probability. Low credit score (520) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (520) materially increases default risk.
+- Debt-to-income ratio (0.55) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00114,Hospitality,PA,257056.81,544,0.404,0.8376,Decline,"RISK SUMMARY: Decline at 83.8% default probability. Low credit score (544) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (544) materially increases default risk.
+- Interest rate (4.56%) is elevated, which often coincides with weaker borrower quality.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00115,Agriculture,PA,348990.68,585,0.157,0.5103,Review,"RISK SUMMARY: Review at 51.0% default probability. Low credit score (585) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (585) materially increases default risk.
+- Employee count (473) is smaller than stronger-performing cohorts.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00116,Hospitality,NY,458796.02,695,0.634,0.8083,Decline,"RISK SUMMARY: Decline at 80.8% default probability. Debt-to-income ratio (0.63) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.63) is high relative to the training portfolio.
+- State cohort (NY) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00122,Hospitality,FL,345722.89,648,0.212,0.5109,Review,"RISK SUMMARY: Review at 51.1% default probability. Interest rate (5.23%) is elevated, which often coincides with weaker borrower quality.
+
+KEY SIGNALS:
+- Interest rate (5.23%) is elevated, which often coincides with weaker borrower quality.
+- Employee count (491) is smaller than stronger-performing cohorts.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00124,Construction,CA,29910.77,586,0.189,0.5157,Review,"RISK SUMMARY: Review at 51.6% default probability. Low credit score (586) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (586) materially increases default risk.
+- Business operating history (6 years) is limited.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00128,Hospitality,GA,310713.54,540,0.475,0.8014,Decline,"RISK SUMMARY: Decline at 80.1% default probability. Low credit score (540) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (540) materially increases default risk.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00129,Hospitality,OH,148586.21,711,0.383,0.4521,Review,"RISK SUMMARY: Review at 45.2% default probability. Business operating history (4 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (4 years) is limited.
+- Sector exposure (Hospitality) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00133,Hospitality,CA,339916.38,552,0.516,0.799,Decline,"RISK SUMMARY: Decline at 79.9% default probability. Low credit score (552) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (552) materially increases default risk.
+- Interest rate (4.58%) is elevated, which often coincides with weaker borrower quality.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00139,Retail,TX,248723.3,640,0.155,0.5857,Review,"RISK SUMMARY: Review at 58.6% default probability. Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+KEY SIGNALS:
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+- State cohort (TX) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00140,Hospitality,NY,333116.9,706,0.544,0.7565,Decline,"RISK SUMMARY: Decline at 75.7% default probability. State cohort (NY) has a weaker repayment pattern in the training data.
+
+KEY SIGNALS:
+- State cohort (NY) has a weaker repayment pattern in the training data.
+- Debt-to-income ratio (0.54) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00141,Agriculture,OH,324010.89,588,0.474,0.7857,Decline,"RISK SUMMARY: Decline at 78.6% default probability. Low credit score (588) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (588) materially increases default risk.
+- Business operating history (8 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00142,Hospitality,NC,248615.98,561,0.563,0.5528,Review,"RISK SUMMARY: Review at 55.3% default probability. Low credit score (561) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (561) materially increases default risk.
+- Debt-to-income ratio (0.56) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00143,Technology,PA,47466.57,779,0.447,0.4299,Review,"RISK SUMMARY: Review at 43.0% default probability. Business operating history (7 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (7 years) is limited.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00145,Manufacturing,NY,54371.47,642,0.566,0.5615,Review,"RISK SUMMARY: Review at 56.2% default probability. State cohort (NY) has a weaker repayment pattern in the training data.
+
+KEY SIGNALS:
+- State cohort (NY) has a weaker repayment pattern in the training data.
+- Debt-to-income ratio (0.57) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00146,Hospitality,FL,474868.8,767,0.617,0.4692,Review,"RISK SUMMARY: Review at 46.9% default probability. Business operating history (5 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (5 years) is limited.
+- Debt-to-income ratio (0.62) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00147,Retail,CA,30976.14,704,0.313,0.4759,Review,"RISK SUMMARY: Review at 47.6% default probability. Business operating history (8 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (8 years) is limited.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00149,Technology,WA,419379.84,634,0.384,0.6736,Decline,"RISK SUMMARY: Decline at 67.4% default probability. Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+KEY SIGNALS:
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+- Requested loan amount ($419,380) is large for this portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00151,Healthcare,OH,333943.73,578,0.365,0.6664,Decline,"RISK SUMMARY: Decline at 66.6% default probability. Low credit score (578) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (578) materially increases default risk.
+- State cohort (OH) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00152,Construction,CA,129398.45,602,0.174,0.5073,Review,"RISK SUMMARY: Review at 50.7% default probability. Business operating history (6 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (6 years) is limited.
+- Credit score (602) is below the stronger-performing borrower range.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00153,Retail,TX,98218.39,529,0.583,0.9222,Decline,"RISK SUMMARY: Decline at 92.2% default probability. Low credit score (529) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (529) materially increases default risk.
+- Business operating history (5 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00154,Hospitality,NY,434978.18,730,0.43,0.8076,Decline,"RISK SUMMARY: Decline at 80.8% default probability. Business operating history (7 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (7 years) is limited.
+- State cohort (NY) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00155,Technology,NY,177908.92,555,0.226,0.5015,Review,"RISK SUMMARY: Review at 50.2% default probability. Low credit score (555) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (555) materially increases default risk.
+- State cohort (NY) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00156,Healthcare,PA,345340.24,610,0.362,0.7828,Decline,"RISK SUMMARY: Decline at 78.3% default probability. Business operating history (7 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (7 years) is limited.
+- Credit score (610) is below the stronger-performing borrower range.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00158,Construction,TX,469826.6,715,0.293,0.5541,Review,"RISK SUMMARY: Review at 55.4% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Requested loan amount ($469,827) is large for this portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00160,Healthcare,NY,13525.09,681,0.325,0.4742,Review,"RISK SUMMARY: Review at 47.4% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- State cohort (NY) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00164,Healthcare,PA,138915.08,539,0.498,0.7951,Decline,"RISK SUMMARY: Decline at 79.5% default probability. Low credit score (539) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (539) materially increases default risk.
+- Debt-to-income ratio (0.50) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00166,Healthcare,IL,311443.09,520,0.637,0.6211,Review,"RISK SUMMARY: Review at 62.1% default probability. Low credit score (520) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (520) materially increases default risk.
+- Debt-to-income ratio (0.64) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00167,Hospitality,IL,208670.97,555,0.606,0.5738,Review,"RISK SUMMARY: Review at 57.4% default probability. Low credit score (555) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (555) materially increases default risk.
+- Debt-to-income ratio (0.61) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00169,Hospitality,NC,45469.13,579,0.542,0.6584,Decline,"RISK SUMMARY: Decline at 65.8% default probability. Low credit score (579) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (579) materially increases default risk.
+- Business operating history (6 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00170,Technology,OH,194769.34,693,0.629,0.4803,Review,"RISK SUMMARY: Review at 48.0% default probability. Debt-to-income ratio (0.63) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.63) is high relative to the training portfolio.
+- State cohort (OH) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00171,Hospitality,WA,197509.89,637,0.54,0.8675,Decline,"RISK SUMMARY: Decline at 86.8% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Debt-to-income ratio (0.54) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00172,Construction,OH,150771.9,695,0.142,0.4067,Review,"RISK SUMMARY: Review at 40.7% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- State cohort (OH) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00173,Healthcare,IL,375616.57,622,0.229,0.609,Review,"RISK SUMMARY: Review at 60.9% default probability. Business operating history (7 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (7 years) is limited.
+- Credit score (622) is below the stronger-performing borrower range.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00174,Agriculture,PA,184453.41,560,0.472,0.8865,Decline,"RISK SUMMARY: Decline at 88.6% default probability. Low credit score (560) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (560) materially increases default risk.
+- Business operating history (7 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00175,Agriculture,IL,30708.93,681,0.371,0.5565,Review,"RISK SUMMARY: Review at 55.7% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Employee count (440) is smaller than stronger-performing cohorts.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00178,Healthcare,PA,310261.27,654,0.23,0.5077,Review,"RISK SUMMARY: Review at 50.8% default probability. State cohort (PA) has a weaker repayment pattern in the training data.
+
+KEY SIGNALS:
+- State cohort (PA) has a weaker repayment pattern in the training data.
+- Loan purpose (Expansion) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00179,Hospitality,PA,353349.19,725,0.254,0.6204,Review,"RISK SUMMARY: Review at 62.0% default probability. Business operating history (6 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (6 years) is limited.
+- Sector exposure (Hospitality) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00181,Hospitality,IL,447702.5,681,0.532,0.7975,Decline,"RISK SUMMARY: Decline at 79.8% default probability. Business operating history (6 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (6 years) is limited.
+- Debt-to-income ratio (0.53) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00185,Hospitality,TX,435446.25,727,0.567,0.5626,Review,"RISK SUMMARY: Review at 56.3% default probability. Debt-to-income ratio (0.57) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.57) is high relative to the training portfolio.
+- State cohort (TX) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00186,Technology,PA,358112.41,658,0.588,0.7517,Decline,"RISK SUMMARY: Decline at 75.2% default probability. Debt-to-income ratio (0.59) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.59) is high relative to the training portfolio.
+- Business operating history (8 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00187,Hospitality,TX,21319.54,560,0.216,0.5971,Review,"RISK SUMMARY: Review at 59.7% default probability. Low credit score (560) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (560) materially increases default risk.
+- State cohort (TX) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00188,Healthcare,IL,204536.14,599,0.146,0.4878,Review,"RISK SUMMARY: Review at 48.8% default probability. Low credit score (599) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (599) materially increases default risk.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00189,Technology,OH,74325.78,702,0.573,0.4707,Review,"RISK SUMMARY: Review at 47.1% default probability. Debt-to-income ratio (0.57) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.57) is high relative to the training portfolio.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00192,Retail,OH,425493.78,793,0.105,0.6234,Review,"RISK SUMMARY: Review at 62.3% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00197,Technology,WA,224824.15,597,0.108,0.746,Decline,"RISK SUMMARY: Decline at 74.6% default probability. Business operating history (4 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (4 years) is limited.
+- Low credit score (597) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00198,Technology,TX,25551.19,594,0.131,0.4348,Review,"RISK SUMMARY: Review at 43.5% default probability. Low credit score (594) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (594) materially increases default risk.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00199,Manufacturing,FL,410452.85,647,0.312,0.7198,Decline,"RISK SUMMARY: Decline at 72.0% default probability. Business operating history (6 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (6 years) is limited.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00200,Manufacturing,CA,56040.55,679,0.615,0.5687,Review,"RISK SUMMARY: Review at 56.9% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Debt-to-income ratio (0.61) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00201,Healthcare,TX,322874.81,546,0.575,0.7741,Decline,"RISK SUMMARY: Decline at 77.4% default probability. Low credit score (546) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (546) materially increases default risk.
+- Debt-to-income ratio (0.57) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00205,Technology,CA,369262.53,703,0.498,0.4184,Review,"RISK SUMMARY: Review at 41.8% default probability. Loan term (12 months) is longer than the lower-risk cohort.
+
+KEY SIGNALS:
+- Loan term (12 months) is longer than the lower-risk cohort.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00210,Retail,PA,97533.01,768,0.205,0.4147,Review,"RISK SUMMARY: Review at 41.5% default probability. Business operating history (3 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (3 years) is limited.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00212,Construction,WA,417718.07,551,0.299,0.6618,Decline,"RISK SUMMARY: Decline at 66.2% default probability. Low credit score (551) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (551) materially increases default risk.
+- Business operating history (7 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00213,Agriculture,TX,29920.04,559,0.62,0.9132,Decline,"RISK SUMMARY: Decline at 91.3% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Low credit score (559) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00214,Construction,GA,102835.6,611,0.407,0.4306,Review,"RISK SUMMARY: Review at 43.1% default probability. Business operating history (4 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (4 years) is limited.
+- Credit score (611) is below the stronger-performing borrower range.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00219,Retail,NY,347962.4,781,0.406,0.496,Review,"RISK SUMMARY: Review at 49.6% default probability. State cohort (NY) has a weaker repayment pattern in the training data.
+
+KEY SIGNALS:
+- State cohort (NY) has a weaker repayment pattern in the training data.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00221,Construction,CA,398523.06,568,0.427,0.7733,Decline,"RISK SUMMARY: Decline at 77.3% default probability. Low credit score (568) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (568) materially increases default risk.
+- Business operating history (7 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00225,Manufacturing,GA,290005.89,654,0.147,0.5013,Review,"RISK SUMMARY: Review at 50.1% default probability. Business operating history (5 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (5 years) is limited.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00226,Agriculture,FL,107073.18,620,0.409,0.4303,Review,"RISK SUMMARY: Review at 43.0% default probability. Business operating history (5 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (5 years) is limited.
+- Credit score (620) is below the stronger-performing borrower range.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00227,Agriculture,FL,462827.66,731,0.333,0.6611,Decline,"RISK SUMMARY: Decline at 66.1% default probability. Requested loan amount ($462,828) is large for this portfolio.
+
+KEY SIGNALS:
+- Requested loan amount ($462,828) is large for this portfolio.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00229,Manufacturing,NY,381289.55,547,0.234,0.8665,Decline,"RISK SUMMARY: Decline at 86.6% default probability. Low credit score (547) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (547) materially increases default risk.
+- State cohort (NY) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00231,Agriculture,CA,315290.58,529,0.307,0.5316,Review,"RISK SUMMARY: Review at 53.2% default probability. Low credit score (529) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (529) materially increases default risk.
+- Loan term (24 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00232,Technology,WA,312802.74,524,0.137,0.888,Decline,"RISK SUMMARY: Decline at 88.8% default probability. Low credit score (524) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (524) materially increases default risk.
+- Business operating history (2 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00233,Retail,WA,328211.46,780,0.637,0.4354,Review,"RISK SUMMARY: Review at 43.5% default probability. Business operating history (4 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (4 years) is limited.
+- Debt-to-income ratio (0.64) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00235,Construction,IL,345312.56,640,0.648,0.5573,Review,"RISK SUMMARY: Review at 55.7% default probability. Debt-to-income ratio (0.65) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.65) is high relative to the training portfolio.
+- Credit score (640) is below the stronger-performing borrower range.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00236,Technology,GA,499976.38,663,0.224,0.5246,Review,"RISK SUMMARY: Review at 52.5% default probability. Requested loan amount ($499,976) is large for this portfolio.
+
+KEY SIGNALS:
+- Requested loan amount ($499,976) is large for this portfolio.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00237,Construction,PA,342217.5,598,0.335,0.8459,Decline,"RISK SUMMARY: Decline at 84.6% default probability. Business operating history (3 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (3 years) is limited.
+- Low credit score (598) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00240,Construction,NY,441264.63,675,0.344,0.566,Review,"RISK SUMMARY: Review at 56.6% default probability. Business operating history (5 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (5 years) is limited.
+- State cohort (NY) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00241,Manufacturing,CA,493118.24,638,0.428,0.6088,Review,"RISK SUMMARY: Review at 60.9% default probability. Business operating history (4 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (4 years) is limited.
+- Requested loan amount ($493,118) is large for this portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00246,Agriculture,CA,497959.82,540,0.407,0.7186,Decline,"RISK SUMMARY: Decline at 71.9% default probability. Low credit score (540) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (540) materially increases default risk.
+- Requested loan amount ($497,960) is large for this portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00249,Hospitality,TX,448939.5,685,0.48,0.8229,Decline,"RISK SUMMARY: Decline at 82.3% default probability. Business operating history (6 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (6 years) is limited.
+- Requested loan amount ($448,940) is large for this portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00251,Agriculture,GA,287090.87,594,0.198,0.5431,Review,"RISK SUMMARY: Review at 54.3% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Low credit score (594) materially increases default risk.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00252,Technology,PA,228666.53,587,0.628,0.7919,Decline,"RISK SUMMARY: Decline at 79.2% default probability. Debt-to-income ratio (0.63) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.63) is high relative to the training portfolio.
+- Low credit score (587) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00255,Manufacturing,NY,293265.43,564,0.127,0.7917,Decline,"RISK SUMMARY: Decline at 79.2% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Low credit score (564) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00256,Construction,WA,348841.67,610,0.631,0.6721,Decline,"RISK SUMMARY: Decline at 67.2% default probability. Debt-to-income ratio (0.63) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.63) is high relative to the training portfolio.
+- Business operating history (6 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00257,Agriculture,TX,449789.59,553,0.261,0.8832,Decline,"RISK SUMMARY: Decline at 88.3% default probability. Business operating history (3 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (3 years) is limited.
+- Low credit score (553) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00258,Technology,TX,112824.23,575,0.414,0.784,Decline,"RISK SUMMARY: Decline at 78.4% default probability. Low credit score (575) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (575) materially increases default risk.
+- State cohort (TX) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00260,Healthcare,IL,367300.52,612,0.586,0.7811,Decline,"RISK SUMMARY: Decline at 78.1% default probability. Business operating history (5 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (5 years) is limited.
+- Debt-to-income ratio (0.59) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00261,Retail,WA,400398.95,732,0.328,0.7393,Decline,"RISK SUMMARY: Decline at 73.9% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00263,Retail,WA,204064.17,534,0.558,0.9101,Decline,"RISK SUMMARY: Decline at 91.0% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Low credit score (534) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00264,Construction,WA,400654.65,755,0.591,0.4633,Review,"RISK SUMMARY: Review at 46.3% default probability. Debt-to-income ratio (0.59) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.59) is high relative to the training portfolio.
+- Requested loan amount ($400,655) is large for this portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00265,Construction,WA,156678.44,529,0.215,0.4358,Review,"RISK SUMMARY: Review at 43.6% default probability. Low credit score (529) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (529) materially increases default risk.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00267,Construction,NY,52530.91,674,0.219,0.4089,Review,"RISK SUMMARY: Review at 40.9% default probability. State cohort (NY) has a weaker repayment pattern in the training data.
+
+KEY SIGNALS:
+- State cohort (NY) has a weaker repayment pattern in the training data.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00268,Agriculture,OH,227449.31,776,0.185,0.453,Review,"RISK SUMMARY: Review at 45.3% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00274,Retail,PA,34723.45,738,0.316,0.49,Review,"RISK SUMMARY: Review at 49.0% default probability. Business operating history (5 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (5 years) is limited.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00278,Technology,IL,291592.35,574,0.279,0.5672,Review,"RISK SUMMARY: Review at 56.7% default probability. Low credit score (574) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (574) materially increases default risk.
+- Business operating history (6 years) is limited.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00280,Healthcare,OH,350125.25,559,0.507,0.8249,Decline,"RISK SUMMARY: Decline at 82.5% default probability. Low credit score (559) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (559) materially increases default risk.
+- Debt-to-income ratio (0.51) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00282,Technology,OH,40126.29,520,0.516,0.7442,Decline,"RISK SUMMARY: Decline at 74.4% default probability. Low credit score (520) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (520) materially increases default risk.
+- Debt-to-income ratio (0.52) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00284,Retail,CA,493346.61,670,0.134,0.4404,Review,"RISK SUMMARY: Review at 44.0% default probability. Requested loan amount ($493,347) is large for this portfolio.
+
+KEY SIGNALS:
+- Requested loan amount ($493,347) is large for this portfolio.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00285,Agriculture,GA,148282.53,721,0.444,0.4245,Review,"RISK SUMMARY: Review at 42.5% default probability. Loan term (12 months) is longer than the lower-risk cohort.
+
+KEY SIGNALS:
+- Loan term (12 months) is longer than the lower-risk cohort.
+- Loan purpose (Expansion) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00289,Manufacturing,PA,293189.87,657,0.326,0.4871,Review,"RISK SUMMARY: Review at 48.7% default probability. Business operating history (8 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (8 years) is limited.
+- State cohort (PA) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00290,Healthcare,IL,65450.54,560,0.178,0.4722,Review,"RISK SUMMARY: Review at 47.2% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Low credit score (560) materially increases default risk.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00291,Healthcare,PA,130163.34,796,0.539,0.7019,Decline,"RISK SUMMARY: Decline at 70.2% default probability. Business operating history (3 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (3 years) is limited.
+- Debt-to-income ratio (0.54) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00292,Healthcare,IL,232477.04,689,0.332,0.4775,Review,"RISK SUMMARY: Review at 47.7% default probability. Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+KEY SIGNALS:
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+- Employee count (400) is smaller than stronger-performing cohorts.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00294,Agriculture,IL,150539.67,559,0.568,0.8966,Decline,"RISK SUMMARY: Decline at 89.7% default probability. Low credit score (559) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (559) materially increases default risk.
+- Debt-to-income ratio (0.57) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00295,Healthcare,NY,135908.3,597,0.463,0.8847,Decline,"RISK SUMMARY: Decline at 88.5% default probability. Business operating history (5 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (5 years) is limited.
+- Low credit score (597) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00296,Agriculture,PA,98596.5,695,0.641,0.4848,Review,"RISK SUMMARY: Review at 48.5% default probability. Debt-to-income ratio (0.64) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.64) is high relative to the training portfolio.
+- Business operating history (9 years) is limited.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00298,Retail,NC,411570.19,724,0.362,0.4507,Review,"RISK SUMMARY: Review at 45.1% default probability. Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+KEY SIGNALS:
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00300,Retail,TX,183375.77,659,0.284,0.8244,Decline,"RISK SUMMARY: Decline at 82.4% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00303,Healthcare,TX,301127.91,582,0.489,0.7456,Decline,"RISK SUMMARY: Decline at 74.6% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Low credit score (582) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00306,Hospitality,PA,136536.92,555,0.37,0.6961,Decline,"RISK SUMMARY: Decline at 69.6% default probability. Low credit score (555) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (555) materially increases default risk.
+- Sector exposure (Hospitality) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00307,Hospitality,TX,386666.59,574,0.602,0.8363,Decline,"RISK SUMMARY: Decline at 83.6% default probability. Low credit score (574) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (574) materially increases default risk.
+- Debt-to-income ratio (0.60) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00309,Manufacturing,TX,201751.88,771,0.363,0.458,Review,"RISK SUMMARY: Review at 45.8% default probability. Loan term (12 months) is longer than the lower-risk cohort.
+
+KEY SIGNALS:
+- Loan term (12 months) is longer than the lower-risk cohort.
+- State cohort (TX) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00310,Hospitality,GA,392116.64,703,0.283,0.8724,Decline,"RISK SUMMARY: Decline at 87.2% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00311,Construction,FL,189024.13,755,0.518,0.6349,Review,"RISK SUMMARY: Review at 63.5% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00312,Hospitality,FL,350982.32,703,0.368,0.8044,Decline,"RISK SUMMARY: Decline at 80.4% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00313,Retail,OH,498227.94,552,0.536,0.9708,Decline,"RISK SUMMARY: Decline at 97.1% default probability. Low credit score (552) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (552) materially increases default risk.
+- Business operating history (5 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00314,Agriculture,GA,497958.48,692,0.533,0.4782,Review,"RISK SUMMARY: Review at 47.8% default probability. Requested loan amount ($497,958) is large for this portfolio.
+
+KEY SIGNALS:
+- Requested loan amount ($497,958) is large for this portfolio.
+- Debt-to-income ratio (0.53) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00316,Hospitality,OH,32442.83,545,0.598,0.9119,Decline,"RISK SUMMARY: Decline at 91.2% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Low credit score (545) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00319,Retail,CA,381199.54,604,0.341,0.6845,Decline,"RISK SUMMARY: Decline at 68.5% default probability. Credit score (604) is below the stronger-performing borrower range.
+
+KEY SIGNALS:
+- Credit score (604) is below the stronger-performing borrower range.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00321,Construction,FL,243246.11,658,0.388,0.4548,Review,"RISK SUMMARY: Review at 45.5% default probability. Loan purpose (Expansion) has performed worse than the portfolio average.
+
+KEY SIGNALS:
+- Loan purpose (Expansion) has performed worse than the portfolio average.
+- Interest rate (7.28%) is elevated, which often coincides with weaker borrower quality.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00323,Healthcare,IL,432738.22,757,0.524,0.4149,Review,"RISK SUMMARY: Review at 41.5% default probability. Business operating history (4 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (4 years) is limited.
+- Debt-to-income ratio (0.52) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00324,Agriculture,CA,484601.18,601,0.469,0.5721,Review,"RISK SUMMARY: Review at 57.2% default probability. Business operating history (4 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (4 years) is limited.
+- Credit score (601) is below the stronger-performing borrower range.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00325,Manufacturing,NY,312241.48,546,0.609,0.8532,Decline,"RISK SUMMARY: Decline at 85.3% default probability. Low credit score (546) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (546) materially increases default risk.
+- Debt-to-income ratio (0.61) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00326,Hospitality,FL,448588.8,686,0.33,0.7749,Decline,"RISK SUMMARY: Decline at 77.5% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00328,Hospitality,WA,308622.44,589,0.352,0.8657,Decline,"RISK SUMMARY: Decline at 86.6% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Low credit score (589) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00329,Manufacturing,GA,349183.16,576,0.568,0.8631,Decline,"RISK SUMMARY: Decline at 86.3% default probability. Low credit score (576) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (576) materially increases default risk.
+- Debt-to-income ratio (0.57) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00330,Agriculture,FL,154629.14,607,0.418,0.5942,Review,"RISK SUMMARY: Review at 59.4% default probability. Business operating history (6 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (6 years) is limited.
+- Credit score (607) is below the stronger-performing borrower range.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00334,Technology,PA,499486.31,676,0.189,0.807,Decline,"RISK SUMMARY: Decline at 80.7% default probability. Business operating history (5 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (5 years) is limited.
+- Requested loan amount ($499,486) is large for this portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00335,Hospitality,TX,438357.53,709,0.445,0.6944,Decline,"RISK SUMMARY: Decline at 69.4% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- State cohort (TX) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00337,Construction,PA,473207.89,576,0.311,0.7661,Decline,"RISK SUMMARY: Decline at 76.6% default probability. Low credit score (576) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (576) materially increases default risk.
+- Requested loan amount ($473,208) is large for this portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00340,Technology,IL,268074.47,792,0.473,0.4025,Review,"RISK SUMMARY: Review at 40.2% default probability. Loan term (12 months) is longer than the lower-risk cohort.
+
+KEY SIGNALS:
+- Loan term (12 months) is longer than the lower-risk cohort.
+- Debt-to-income ratio (0.47) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00341,Agriculture,NY,406309.98,754,0.148,0.5415,Review,"RISK SUMMARY: Review at 54.1% default probability. State cohort (NY) has a weaker repayment pattern in the training data.
+
+KEY SIGNALS:
+- State cohort (NY) has a weaker repayment pattern in the training data.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00342,Retail,IL,351570.23,624,0.386,0.6501,Decline,"RISK SUMMARY: Decline at 65.0% default probability. Business operating history (3 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (3 years) is limited.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00346,Manufacturing,NY,358787.96,609,0.562,0.6877,Decline,"RISK SUMMARY: Decline at 68.8% default probability. State cohort (NY) has a weaker repayment pattern in the training data.
+
+KEY SIGNALS:
+- State cohort (NY) has a weaker repayment pattern in the training data.
+- Debt-to-income ratio (0.56) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00347,Technology,NY,137599.53,537,0.466,0.9656,Decline,"RISK SUMMARY: Decline at 96.6% default probability. Low credit score (537) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (537) materially increases default risk.
+- Business operating history (2 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00348,Hospitality,OH,271485.05,727,0.612,0.6235,Review,"RISK SUMMARY: Review at 62.3% default probability. Debt-to-income ratio (0.61) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.61) is high relative to the training portfolio.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00349,Retail,PA,488044.51,671,0.361,0.8855,Decline,"RISK SUMMARY: Decline at 88.5% default probability. Business operating history (5 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (5 years) is limited.
+- Requested loan amount ($488,045) is large for this portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00350,Construction,TX,175955.37,540,0.177,0.4678,Review,"RISK SUMMARY: Review at 46.8% default probability. Low credit score (540) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (540) materially increases default risk.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00351,Healthcare,IL,185122.84,619,0.421,0.6247,Review,"RISK SUMMARY: Review at 62.5% default probability. Credit score (619) is below the stronger-performing borrower range.
+
+KEY SIGNALS:
+- Credit score (619) is below the stronger-performing borrower range.
+- Interest rate (5.24%) is elevated, which often coincides with weaker borrower quality.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00352,Healthcare,PA,339063.31,721,0.207,0.698,Decline,"RISK SUMMARY: Decline at 69.8% default probability. Business operating history (3 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (3 years) is limited.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00353,Construction,WA,360822.25,710,0.107,0.4634,Review,"RISK SUMMARY: Review at 46.3% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00354,Hospitality,NY,115690.63,732,0.542,0.6656,Decline,"RISK SUMMARY: Decline at 66.6% default probability. State cohort (NY) has a weaker repayment pattern in the training data.
+
+KEY SIGNALS:
+- State cohort (NY) has a weaker repayment pattern in the training data.
+- Debt-to-income ratio (0.54) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00355,Construction,WA,419400.65,626,0.267,0.4813,Review,"RISK SUMMARY: Review at 48.1% default probability. Requested loan amount ($419,401) is large for this portfolio.
+
+KEY SIGNALS:
+- Requested loan amount ($419,401) is large for this portfolio.
+- Interest rate (5.66%) is elevated, which often coincides with weaker borrower quality.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00357,Technology,FL,413171.62,675,0.372,0.4664,Review,"RISK SUMMARY: Review at 46.6% default probability. Requested loan amount ($413,172) is large for this portfolio.
+
+KEY SIGNALS:
+- Requested loan amount ($413,172) is large for this portfolio.
+- Loan purpose (Expansion) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00358,Manufacturing,FL,323872.05,667,0.329,0.566,Review,"RISK SUMMARY: Review at 56.6% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Interest rate (6.18%) is elevated, which often coincides with weaker borrower quality.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00359,Retail,GA,497223.15,705,0.42,0.8985,Decline,"RISK SUMMARY: Decline at 89.8% default probability. Business operating history (1 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (1 years) is limited.
+- Requested loan amount ($497,223) is large for this portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00360,Construction,PA,350180.1,528,0.565,0.9097,Decline,"RISK SUMMARY: Decline at 91.0% default probability. Low credit score (528) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (528) materially increases default risk.
+- Debt-to-income ratio (0.56) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00361,Manufacturing,CA,349708.69,659,0.299,0.6685,Decline,"RISK SUMMARY: Decline at 66.9% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00362,Technology,NY,47645.07,613,0.521,0.729,Decline,"RISK SUMMARY: Decline at 72.9% default probability. State cohort (NY) has a weaker repayment pattern in the training data.
+
+KEY SIGNALS:
+- State cohort (NY) has a weaker repayment pattern in the training data.
+- Credit score (613) is below the stronger-performing borrower range.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00363,Agriculture,NY,157525.43,700,0.553,0.5002,Review,"RISK SUMMARY: Review at 50.0% default probability. State cohort (NY) has a weaker repayment pattern in the training data.
+
+KEY SIGNALS:
+- State cohort (NY) has a weaker repayment pattern in the training data.
+- Debt-to-income ratio (0.55) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00364,Agriculture,NC,461244.61,599,0.377,0.4602,Review,"RISK SUMMARY: Review at 46.0% default probability. Low credit score (599) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (599) materially increases default risk.
+- Requested loan amount ($461,245) is large for this portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00365,Agriculture,CA,354109.8,559,0.164,0.5187,Review,"RISK SUMMARY: Review at 51.9% default probability. Low credit score (559) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (559) materially increases default risk.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00368,Retail,PA,381093.68,536,0.536,0.9579,Decline,"RISK SUMMARY: Decline at 95.8% default probability. Low credit score (536) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (536) materially increases default risk.
+- Business operating history (4 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00369,Hospitality,FL,31207.93,569,0.53,0.7189,Decline,"RISK SUMMARY: Decline at 71.9% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Low credit score (569) materially increases default risk.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00371,Agriculture,IL,257405.52,527,0.391,0.7549,Decline,"RISK SUMMARY: Decline at 75.5% default probability. Low credit score (527) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (527) materially increases default risk.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00373,Manufacturing,TX,196011.38,728,0.162,0.5295,Review,"RISK SUMMARY: Review at 52.9% default probability. Business operating history (4 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (4 years) is limited.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00375,Construction,FL,422134.19,668,0.642,0.4175,Review,"RISK SUMMARY: Review at 41.8% default probability. Debt-to-income ratio (0.64) is high relative to the training portfolio.
+
+KEY SIGNALS:
+- Debt-to-income ratio (0.64) is high relative to the training portfolio.
+- Requested loan amount ($422,134) is large for this portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00377,Construction,GA,373301.76,621,0.286,0.5519,Review,"RISK SUMMARY: Review at 55.2% default probability. Credit score (621) is below the stronger-performing borrower range.
+
+KEY SIGNALS:
+- Credit score (621) is below the stronger-performing borrower range.
+- Interest rate (5.37%) is elevated, which often coincides with weaker borrower quality.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00380,Agriculture,PA,23106.96,687,0.184,0.46,Review,"RISK SUMMARY: Review at 46.0% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- State cohort (PA) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00383,Retail,IL,431576.74,604,0.37,0.7892,Decline,"RISK SUMMARY: Decline at 78.9% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Credit score (604) is below the stronger-performing borrower range.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00385,Retail,WA,299612.11,700,0.522,0.5437,Review,"RISK SUMMARY: Review at 54.4% default probability. Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+KEY SIGNALS:
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+- Loan purpose (Real Estate) has performed worse than the portfolio average.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00387,Technology,WA,131330.83,553,0.578,0.4409,Review,"RISK SUMMARY: Review at 44.1% default probability. Low credit score (553) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (553) materially increases default risk.
+- Debt-to-income ratio (0.58) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00388,Retail,PA,235845.6,735,0.247,0.5554,Review,"RISK SUMMARY: Review at 55.5% default probability. Business operating history (6 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (6 years) is limited.
+- Sector exposure (Retail) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00389,Hospitality,WA,290543.94,625,0.285,0.66,Decline,"RISK SUMMARY: Decline at 66.0% default probability. Credit score (625) is below the stronger-performing borrower range.
+
+KEY SIGNALS:
+- Credit score (625) is below the stronger-performing borrower range.
+- Sector exposure (Hospitality) has historically produced higher defaults in this sample.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00391,Hospitality,TX,374015.13,568,0.426,0.8744,Decline,"RISK SUMMARY: Decline at 87.4% default probability. Low credit score (568) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (568) materially increases default risk.
+- Loan term (12 months) is longer than the lower-risk cohort.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00392,Hospitality,WA,399869.36,673,0.338,0.4962,Review,"RISK SUMMARY: Review at 49.6% default probability. Sector exposure (Hospitality) has historically produced higher defaults in this sample.
+
+KEY SIGNALS:
+- Sector exposure (Hospitality) has historically produced higher defaults in this sample.
+- Requested loan amount ($399,869) is large for this portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00393,Technology,NY,339064.52,529,0.445,0.8455,Decline,"RISK SUMMARY: Decline at 84.5% default probability. Low credit score (529) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (529) materially increases default risk.
+- State cohort (NY) has a weaker repayment pattern in the training data.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00394,Construction,PA,469670.47,792,0.545,0.5456,Review,"RISK SUMMARY: Review at 54.6% default probability. Business operating history (7 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (7 years) is limited.
+- Debt-to-income ratio (0.55) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00395,Healthcare,WA,82394.41,673,0.564,0.7113,Decline,"RISK SUMMARY: Decline at 71.1% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Debt-to-income ratio (0.56) is high relative to the training portfolio.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00396,Construction,GA,140798.03,651,0.478,0.4948,Review,"RISK SUMMARY: Review at 49.5% default probability. Business operating history (3 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (3 years) is limited.
+- Debt-to-income ratio (0.48) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
+L00398,Retail,CA,146108.28,541,0.63,0.8768,Decline,"RISK SUMMARY: Decline at 87.7% default probability. Low credit score (541) materially increases default risk.
+
+KEY SIGNALS:
+- Low credit score (541) materially increases default risk.
+- Business operating history (5 years) is limited.
+
+ANALYST ACTION: Escalate for senior underwriter review and verify bank statements before issuing a final decline."
+L00399,Agriculture,GA,304783.87,728,0.593,0.6454,Review,"RISK SUMMARY: Review at 64.5% default probability. Business operating history (2 years) is limited.
+
+KEY SIGNALS:
+- Business operating history (2 years) is limited.
+- Debt-to-income ratio (0.59) is high relative to the training portfolio.
+
+ANALYST ACTION: Route to analyst review with refreshed cash-flow documents and recent bank statements."
